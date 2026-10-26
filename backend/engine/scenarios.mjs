@@ -1,0 +1,58 @@
+export const scenarios = [
+  {
+    id: "fact-01",
+    category: "Knowledge",
+    title: "A direct fact",
+    task: "What is the capital of India?",
+    risk: "low",
+  },
+  {
+    id: "summary-02",
+    category: "Writing",
+    title: "A short summary",
+    task: "Summarize this report in three concise bullets.",
+    risk: "low",
+  },
+  {
+    id: "code-03",
+    category: "Software",
+    title: "A distributed failure",
+    task: "Analyze a distributed service failure and trace its likely cause.",
+    risk: "medium",
+  },
+  {
+    id: "design-04",
+    category: "Systems",
+    title: "Compare architectures",
+    task: "Compare two architectures and explain their operational trade-offs.",
+    risk: "medium",
+  },
+  {
+    id: "release-05",
+    category: "Operations",
+    title: "A production deployment",
+    task: "Plan a production deployment with rollback and health checks.",
+    risk: "high",
+  },
+  {
+    id: "data-06",
+    category: "Research",
+    title: "Inspect a dataset",
+    task: "Inspect this dataset for missing values and summarize any data-quality risks.",
+    risk: "medium",
+  },
+  {
+    id: "civic-07",
+    category: "Civic services",
+    title: "Navigate a public-service issue",
+    task: "Analyze a non-emergency public-service issue and suggest a cautious, verifiable next step.",
+    risk: "medium",
+  },
+  {
+    id: "language-08",
+    category: "Accessibility",
+    title: "Explain a service in plain language",
+    task: "Explain a public-service process in plain language and identify details that need official verification.",
+    risk: "medium",
+  },
+];
